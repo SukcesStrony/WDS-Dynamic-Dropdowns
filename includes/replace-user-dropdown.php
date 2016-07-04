@@ -102,7 +102,7 @@ class WDSDD_Replace_User_Dropdown {
 			array(
 				'search' => '*'.$search.'*',
 				'search_columns' => array( 'user_login', 'user_email', 'user_nicename', 'ID' ),
-				'who' => '',
+				'who' => 'authors',
 				'number' => 10,
 			)
 		);
